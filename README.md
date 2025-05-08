@@ -57,7 +57,7 @@ Ensure your frontend makes API calls to the backend server at `http://localhost:
 
 The connection to MongoDB Atlas is already set up with your connection string:
 ```
-mongodb+srv://abdulaamir9496:OsfxERW7F0l9RKh3@oas-rest-api-evaluator.ywi8do4.mongodb.net/api-evaluator
+mongodb+srv://<username>:<password>@oas-rest-api-evaluator.ywi8do4.mongodb.net/api-evaluator
 ```
 
 The backend will:
@@ -81,7 +81,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 
 Then create a `.env` file:
 ```
-MONGODB_URI=mongodb+srv://abdulaamir9496:OsfxERW7F0l9RKh3@oas-rest-api-evaluator.ywi8do4.mongodb.net/api-evaluator
+mongodb+srv://<username>:<password>@oas-rest-api-evaluator.ywi8do4.mongodb.net/api-evaluator
 ```
 
 Make sure to add `.env` to your `.gitignore` file to avoid exposing credentials.
